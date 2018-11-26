@@ -15,7 +15,6 @@ public class Demo1GetImageParams {
     public static void main(String[] args) {
         File pic1 = new File(Demo1GetImageParams.class.getResource("/pic-1.jpg").getFile());
         System.out.println(pic1.getName() + " width:" + getImgWidth(pic1) + " height:" + getImgHeight(pic1));
-
     }
 
     /**
